@@ -1,0 +1,15 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "import/order": ["error", {
+      "groups": ["builtin", "external", "parent", "sibling", "index"]
+    }],
+    "import/no-extraneous-dependencies": "error"
+  }
+}
